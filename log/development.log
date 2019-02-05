@@ -1910,3 +1910,4 @@ Cannot render console from 108.5.59.237! Allowed networks: 127.0.0.1, ::1, 127.0
 Processing by ProductsController#index as HTML
   [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
   Rendered products/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 237ms (Views: 227.1ms | ActiveRecord: 0.5ms)
