@@ -15,7 +15,7 @@ $(function() {
           inventoryText = "<strong>Sold Out</strong>";
         }
         var descriptionText = "<p>" + data['description'] + "</p><p>" + inventoryText + "</p>";
-        $("#product-" + id).html(descriptionText);
+        $("#product-" + data.id).html(descriptionText);
       });
     });
   });
